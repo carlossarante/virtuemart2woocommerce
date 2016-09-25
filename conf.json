@@ -1,0 +1,11 @@
+{
+  "domain": "",
+  "dbConfig": {
+    "host": "localhost",
+    "user": "root",
+    "password": "",
+    "database": ""
+  },
+  "wcConfig": {
+  }
+}

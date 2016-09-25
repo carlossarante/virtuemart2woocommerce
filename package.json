@@ -1,0 +1,29 @@
+{
+  "name": "virtuemart2woocommerce",
+  "version": "1.0.0",
+  "description": "\"Migration script to perform product migration from Virtuemart to woocommerce.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migration": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/carlossarante/virtuemart2woocommerce.git"
+  },
+  "keywords": [
+    "virtuemart",
+    "woocommerce"
+  ],
+  "author": "Carlos Sarante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlossarante/virtuemart2woocommerce/issues"
+  },
+  "homepage": "https://github.com/carlossarante/virtuemart2woocommerce#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "mysql": "^2.11.1",
+    "woocommerce-api": "^1.4.0"
+  }
+}
